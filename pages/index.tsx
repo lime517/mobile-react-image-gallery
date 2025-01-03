@@ -61,8 +61,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               React Gallery Demo
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              This is a demo of a *fetched* gallery of images from Cloudinary
-              that run's at 60fps on my iPhone 13 mini. Huge shoutout to to the{" "}
+              This is a demo of a non-local gallery of images that runs at 60fps
+              on my iPhone 13 mini. Huge shoutout to to the{" "}
               <a
                 href="https://github.com/vercel/next.js/tree/canary/examples/with-cloudinary"
                 target="_blank"
